@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from '../logo.png';
-import "./Navbar.css"
+import "./styles/Navbar.css"
 
 function Navbar() {
   return (
@@ -21,10 +21,10 @@ function Navbar() {
                 <div className="submenu-divider"></div>
                 <span className="submenu-title">Users</span>
                 <a href="/login">Login</a>
-                <a href="/register">Register</a>
+                <a href="/signup">Register</a>
                 <div className="submenu-divider"></div>
                 <span className="submenu-title">More</span>
-                <a href="/landing">Home</a>
+                <a href="/">Home</a>
                 <a href="/about">About Us</a>
                 <a href="/courses">Our Courses</a>
                 <a href="/wall-of-fame">Wall Of Fame</a>
