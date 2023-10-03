@@ -1,0 +1,80 @@
+/* Contact.css */
+
+.login-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    /* background-color: rgba(255, 255, 255, 0.85); */
+    background-image: url("https://img.freepik.com/free-photo/panoramic-view-river_1359-769.jpg?w=1380&t=st=1696344256~exp=1696344856~hmac=4d7f10fd9ec62966617314a64668722c9a40609de3013d4c12238d6e8bb98426");
+    color: black;
+    padding: 40px;
+    height: 100vh;
+}
+
+.loginform-content {
+    padding: 2rem;
+    max-width: 80rem;
+    margin: auto;
+    border-radius: 0.5rem;
+    background-color: white;
+    box-shadow: 0.125rem 0.125rem 0.375rem 0 rgba(74, 45, 197, 0.04), 0.5rem 0.5625rem 1.625rem 0 rgba(74, 45, 197, 0.07), 1.375rem 1.5rem 5rem 0 rgba(74, 45, 197, 0.11);
+    backdrop-filter: blur(0px);
+}
+
+
+.loginform-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.loginform-paragraph {
+    font-size: 1.3rem;
+    font-weight: lighter;
+}
+
+.loginform-input {
+    padding: 0.5rem 0.2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #F9FAFB;
+    border: 1px solid #D1D5DB;
+    border-radius: 0.375rem;
+    width: 100%;
+    font-size: 1rem;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+input:focus {
+    border-color: #4A90E2;
+    outline: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.login-button {
+    padding: 0.6rem 1.25rem;
+    font-size: 0.875rem;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 0.375rem;
+    background-color: var(--secondary-color);
+    color: white;
+    margin-left: auto;
+    padding: 0.6rem 1.25rem;
+    border-radius: 0.25rem;
+    display: inline-block;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.input-form {
+    margin-top: 2rem;
+    margin-right: 15px;
+}
+
+.input-label {
+    margin-bottom: 0.5rem;
+    font-size: 0.875rem;
+    font-weight: medium;
+}
